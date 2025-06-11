@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    description1: "My name's Abhishek . I'm a Fullstack Developer and developer based in Kerala, India.",
+    description2: "A full-stack developer with a focus on building modern, responsive, and user-focused web applications. I specialize in Next.js, React, Tailwind CSS, and HTML/CSS on the frontend, and Django (Python) on the backend, with experience in Firebase Firestore and PostgreSQL for database management.I enjoy turning complex ideas into clean, efficient code and crafting smooth, pixel-perfect user interfaces that perform seamlessly across devices. I’m always learning, exploring new technologies, and refining my skills to deliver better digital experiences.",
     image: 2
 }

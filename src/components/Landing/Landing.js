@@ -14,6 +14,8 @@ import {
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaStackOverflow,
+    FaMedium,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -137,6 +139,32 @@ function Landing() {
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='Blogger'
+                                />
+                            </a>
+                        )}
+                        {socialsData.stackOverflow && (
+                            <a
+                                href={socialsData.stackOverflow}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaStackOverflow
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='stackOverflow'
+                                />
+                            </a>
+                        )}
+                        {socialsData.medium && (
+                            <a
+                                href={socialsData.medium}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaMedium
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='stackOverflow'
                                 />
                             </a>
                         )}
