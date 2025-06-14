@@ -39,9 +39,9 @@ function Landing() {
                 color: theme.secondary,
                 border: `3px solid ${theme.tertiary}`,
             },
-            [t.breakpoints.down('sm')]: {
-                width: '180px',
-            },
+            // [t.breakpoints.down('sm')]: {
+            //     display: 'none',
+            // },
         },
         contactBtn: {
             backgroundColor: theme.primary,
@@ -184,12 +184,12 @@ function Landing() {
                     style={{ backgroundColor: theme.secondary }}
                 >
                     <div
-                        className='lcr--content'
+                        className='lcr--content sm:flex-col'
                         style={{ color: theme.tertiary }}
                     >
                         <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
-                        <p>{headerData.desciption}</p>
+                        <p className='sm:hidden text-'>{headerData.description}</p>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (

@@ -1,10 +1,10 @@
 /* eslint-disable */
-import { 
-    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy, 
+import {
+    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy,
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
-    yellowThemegirl,eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
-    expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
-    contactsRed,contactsYellow
+    yellowThemegirl, eduBlack, eduBlue, eduGreen, eduOrange, eduPink, eduPurple, eduRed, eduYellow, expBlack, expBlue, expGreen, expOrange,
+    expPink, expPurple, expRed, expYellow, contactsBlack, contactsBlue, contactsGreen, contactsOrange, contactsPink, contactsPurple,
+    contactsRed, contactsYellow
 } from './images'
 
 
@@ -352,4 +352,41 @@ export const yellowThemeDark = {
     expimg: expYellow,
     contactsimg: contactsYellow
 }
+
+export const darkModeTech =
+{
+    type: 'dark',
+    primary: '#58A6FF',
+    primary400: '#74B2FF',
+    primary600: '#1F6FEB',
+    primary80: '#58A6FFcc',
+    primary50: '#58A6FF80',
+    primary30: '#58A6FF4d',
+    secondary: '#0D1117',
+    secondary70: '#0D1117b3',
+    secondary50: '#0D111780',
+    tertiary: '#C9D1D9',
+    tertiary80: '#C9D1D9cc',
+    tertiary70: '#C9D1D9b3',
+    tertiary50: '#C9D1D980',
+}
+
+export const softNeumorphism = {
+    type: 'light',
+    primary: '#3B82F6',
+    primary400: '#60A5FA',
+    primary600: '#2563EB',
+    primary80: '#3B82F6cc',
+    primary50: '#3B82F680',
+    primary30: '#3B82F64d',
+    secondary: '#F5F5F5',
+    secondary70: '#F5F5F5b3',
+    secondary50: '#F5F5F580',
+    tertiary: '#6B7280',
+    tertiary80: '#6B7280cc',
+    tertiary70: '#6B7280b3',
+    tertiary50: '#6B728080',
+
+}
+
 

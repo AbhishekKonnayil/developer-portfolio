@@ -1,0 +1,4 @@
+/* Create the CSS file in the correct location */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
